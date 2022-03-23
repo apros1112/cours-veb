@@ -1,0 +1,49 @@
+/*Прижатие футера*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex: 0 0 auto;
+}
+ a {
+    color: red;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+a:hover {
+    color: black;
+    front-size: 20px;
+}
+
+input {
+    widows: 200px;
+    height: 30px;
+}
+
+.button {
+    widows: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
