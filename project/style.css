@@ -33,17 +33,30 @@ ul {
 
 a:hover {
     color: black;
-    front-size: 20px;
+    font-size: 20px;
+    text-emphasis: center;
+    
 }
 
 input {
-    widows: 200px;
     height: 30px;
 }
 
 .button {
-    widows: 100px;
     height: 50px;
     margin-top: 20px;
     margin-left: 20px;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: center;
+}
+.forma {
+    margin-right: 50px;
+}
+.forma form {
+    display: flex;
+    flex-direction: column;
 }
